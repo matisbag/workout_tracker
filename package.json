@@ -1,0 +1,15 @@
+{
+  "name": "workout_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:front": "pnpm --filter=front run dev",
+    "dev:api": "pnpm --filter=api run start:dev",
+    "dev": "pnpm run dev:front & pnpm run dev:api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
