@@ -1,5 +1,13 @@
-'use client'
-import { Card, Image, Text, Badge, Button, Group, Container } from '@mantine/core';
+'use client';
+import {
+  Card,
+  Image,
+  Text,
+  Badge,
+  Button,
+  Group,
+  Container,
+} from '@mantine/core';
 
 export default function Home() {
   return (
@@ -20,8 +28,8 @@ export default function Home() {
         </Group>
 
         <Text size="sm" c="dimmed">
-          With Fjord Tours you can explore more of the magical fjord landscapes with tours and
-          activities on and around the fjords of Norway
+          With Fjord Tours you can explore more of the magical fjord landscapes
+          with tours and activities on and around the fjords of Norway
         </Text>
 
         <Button color="blue" fullWidth mt="md" radius="md">
